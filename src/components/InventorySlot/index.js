@@ -1,0 +1,1 @@
+export { default as InventorySlot } from './InventorySlot.vue'

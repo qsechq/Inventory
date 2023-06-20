@@ -1,0 +1,39 @@
+@import '../../styles.scss';
+
+.c-inventory {
+    position: relative;
+    
+    & .inventory__table {
+        border: 1px solid $border-color;
+        border-radius: 12px;
+    }
+
+    & .inventory__list {
+        &:first-child .inventory__item {
+            border-top: none;
+        }
+    }
+
+
+    & .inventory__item {
+        width: 105px;
+        height: 100px;
+        border-top: 1px solid $border-color;
+        border-left: 1px solid $border-color;
+        &:first-child {
+            border-left: none;
+        }
+        &:nth-child(5) {
+            border-radius: 0 12px 0 0;
+        }
+        &:nth-child(21) {
+            border-radius: 0 0 0 12px;
+        }
+        &:last-child {
+            border-radius: 0 0 12px 0;
+        }
+        &:nth-child(21) {
+            border-radius: 0 0 0 12px;
+        }
+    }
+}

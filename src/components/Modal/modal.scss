@@ -1,0 +1,46 @@
+@import '../../styles.scss';
+
+.modal__btn {
+    background: #FA7272;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 11px 55px;
+    margin: 0 auto;
+    display: block;
+}
+
+.modal__img {
+    margin: auto auto 30px;
+}
+
+.description {
+    border-top: 1px solid $border-color;
+    border-bottom: 1px solid $border-color;
+    padding: 16px 0 10px;
+    margin-bottom: 18px;
+}
+
+.modal__icon {
+    color: #fff;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+
+.modal {
+    padding: 55px 15px 18px ;
+    background: rgba(38, 38, 38, 0.5);
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    backdrop-filter: blur(8px);
+    border-radius: 0 12px 12px 0;
+}
+
+.modal__img {
+    width: 130px;
+    height: 130px;
+}

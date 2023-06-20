@@ -1,0 +1,17 @@
+@import '../../styles.scss';
+
+.c-description {
+    border-radius: 12px;
+    padding: 18px 14px 24px;
+    border: 1px solid $border-color;
+    max-width: 236px;
+    min-width: 236px;
+    & .description__img {
+        margin-bottom: 20px;
+    }
+}
+
+.x-skeleton {
+    max-width: 190px;
+    margin: 0 auto;
+}
